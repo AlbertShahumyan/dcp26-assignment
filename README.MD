@@ -10,15 +10,14 @@
 # Data Dictionary
 | Column | Type | Unit | How I measure it |
 |--------|------|------|------------------|
-| date | date | YYYY-MM-DD | Day of the session |
-| game | category | text | Name of the game |
+| date | date | DD-MM-YYYY of the game |
 | hours | decimal | hours | Session length, taken from my game clock or start and end times |
 | mode | category | solo or coop | Whether I played alone or with others |
 | result | category | win, loss or na | Outcome of the session, na when the game has no result |
 | mood_1_to_5 | integer | 1 to 5 | How I felt after the session, 1 is low and 5 is high |
 
 # Description of the project
-I will record my gaming sessions by hand. After each session I note the game, how long I played, whether I played solo or co-op, the result and my mood. My data is in mygaming_data.csv. I add one row per session and commit it every day.
+I will record my gaming sessions by hand. After each session I note the game, how long I played, whether I played solo or co-op, the result and my mood. My data is in gamingtracker/my_data.csv. I add one row per session and commit it every day.
 
 # Instructions for use
 
